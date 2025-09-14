@@ -9,8 +9,7 @@ const Navbar = () => {
             <h1 className="text-2xl font-semibold">DailyMe</h1>
           </div>
           <div className="flex gap-3 items-center font-semibold">
-            <Link>Home</Link>
-            <Link>About</Link>
+            <Link to={"/"}>Home</Link>
           </div>
         </div>
       </div>

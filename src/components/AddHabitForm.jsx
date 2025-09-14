@@ -8,7 +8,7 @@ const AddHabitForm = ({ onAddHabit }) => {
     if (habit.trim() === "") return;
 
     onAddHabit(habit);
-    setHabit(""); // input reset
+    setHabit("");
   };
 
   return (
@@ -23,13 +23,11 @@ const AddHabitForm = ({ onAddHabit }) => {
           placeholder="Enter your habit..."
           value={habit}
           onChange={(e) => setHabit(e.target.value)}
-          className="flex-1 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
-                     focus:outline-none  dark:bg-gray-700 dark:text-white"
+          className="flex-1 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none  dark:bg-gray-700 dark:text-white"
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-[#ddeedd] hover:bg-[#b4ccb4] text-gray-900 font-semibold cursor-pointer rounded-lg 
-                     transition duration-200"
+          className="px-4 py-2 bg-[#ddeedd] hover:bg-[#b4ccb4] text-gray-900 font-semibold cursor-pointer rounded-lg transition duration-200"
         >
           Add
         </button>
