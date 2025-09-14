@@ -24,11 +24,11 @@ const AddHabitForm = ({ onAddHabit }) => {
           value={habit}
           onChange={(e) => setHabit(e.target.value)}
           className="flex-1 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
-                     focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
+                     focus:outline-none  dark:bg-gray-700 dark:text-white"
         />
         <button
           type="submit"
-          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg 
+          className="px-4 py-2 bg-[#ddeedd] hover:bg-[#b4ccb4] text-gray-900 font-semibold cursor-pointer rounded-lg 
                      transition duration-200"
         >
           Add
