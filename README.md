@@ -1,6 +1,8 @@
-# DailyMe
+# DailyMe(https://dailymetracker.netlify.app/)
 
-[`Live View`](https:dailyme.netlify.app)
+[`Live View`](https://dailymetracker.netlify.app/)
+
+<a href="https://dailymetracker.netlify.app/" name="Live View">Live View</a>
 
 A simple **Habit Tracking Web Application** built with **React + React Router + Tailwind CSS**.
 Users can add habits, mark them as done, and view simple analytics. Data is stored in localStorage, so progress stays saved even after page reload.
